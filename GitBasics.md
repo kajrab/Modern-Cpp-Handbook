@@ -8,8 +8,7 @@ I'm going to start with the basics of git. The real reason I want to write this 
 git config --global user.name "yourname"
 git config --global user.email "you@email.com"
 ```
-With this you are introducing yourself to git, so every change you make gets signed with this name and email.
-With this, your teammates can easily track who made which changes.
+With this you are introducing yourself to git, so every change you make gets signed with this name and email. Your teammates can easily track who made which changes.
 
 ---
 
@@ -44,6 +43,11 @@ git restore file.txt    # undo unsaved changes
 git reset HEAD~1        # undo last commit (keeps your files)
 ```
 
+You can also revert a specific file to a previous commit without touching anything else:
+```bash
+git checkout HEAD~1 -- FileName
+```
+
 ---
 
 ## 5. Teamwork and Branches
@@ -62,5 +66,49 @@ git checkout main           # go back to main
 git checkout branch-name    # go to any specific branch
 git pull                    # always pull before doing something new
 ```
+> Always pull before doing something new, otherwise you might work on outdated code without realizing it.
 
-Note: always pull before doing something new, otherwise you might work on legacy code without realizing.
+---
+
+## 6. Connecting a Local Repo to GitHub
+Sometimes you start a project locally and then decide it is time to store it on GitHub. Here is how you connect them:
+```bash
+git remote add origin https://github.com/username/repo-name.git
+git branch -M main
+git push -u origin main
+```
+First create an empty repo on GitHub, then connect it via the remote command and push everything up.
+
+If the remote is ahead of your local repo:
+```bash
+git pull origin main --allow-unrelated-histories
+```
+
+---
+
+## 7. Removing a File from Tracking
+To remove a file from git tracking without deleting it locally:
+```bash
+git rm --cached FileName
+```
+
+---
+
+## 8. Unstage a File Before Committing
+If you staged something you did not mean to, use this:
+```bash
+git restore --staged FileName
+```
+---
+
+## 9. Ignoring Files
+Some files should never be tracked by git — build outputs, system files, secrets. Create a `.gitignore` file in your repo root and list them:
+
+Git will never touch those files.
+---
+
+## Special Note: Authentication
+GitHub no longer accepts passwords. You need a **Personal Access Token** instead.
+
+Generate one from:
+`Settings → Developer Settings → Personal Access Tokens → Tokens (classic)`
