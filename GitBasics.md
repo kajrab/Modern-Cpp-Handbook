@@ -105,6 +105,7 @@ git restore --staged FileName
 Some files should never be tracked by git — build outputs, system files, secrets. Create a `.gitignore` file in your repo root and list them:
 
 Git will never touch those files.
+
 ---
 
 ## Special Note: Authentication
