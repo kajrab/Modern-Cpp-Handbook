@@ -17,6 +17,9 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
 ### 2. Literals
 - [Literals](literals.md)
 
+### 3. Building Blocks
+- [Operators](building_blocks/operators.md)
+
 ---
 
 > **Note:** This project is still a work in progress.
