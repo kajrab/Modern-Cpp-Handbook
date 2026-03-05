@@ -1,2 +1,19 @@
-# Modern Cpp Handbook
-A personal Modern C++ handbook for quick reference.
+# Modern C++ Handbook
+
+A handbook for modern C++ — not a complete tutorial, but a focused reference for those who already know the basics and just keep forgetting the parts that aren't worth memorizing. 
+
+---
+
+## Contents
+
+### 0. Introduction
+- [0.1 Git Basics](introduction/git_basics.md)
+- [0.2 Unix Basics](introduction/unix_basics.md)
+- [0.3 Build Process](introduction/build_process.md)
+
+### 1. Variables
+- [Variables](variables.md)
+
+---
+
+> **Note:** This project is still a work in progress.
