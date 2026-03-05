@@ -108,6 +108,27 @@ Git will never touch those files.
 
 ---
 
+## 10. Conventional Commits
+
+Conventional commits are a formatting practice used among engineering teams. They provide a consistent structure for commit messages but if that sounds like a lot, the simple version is: 
+
+**they're just a standard way to describe what you did to the project.**
+
+- `fix` – bug fix
+- `docs` – documentation changes like README updates
+- `revert` – undo a previous commit
+- `test` – adding or fixing tests
+- `feat` – new feature
+- `style` – formatting only, no logic changes
+- `build` – changes to build system or dependencies
+- `refactor` – code restructure, no bug fix or feature
+- `ci` – continuous integration changes
+- `chore` – maintenance that doesn't touch src or tests
+- `perf` – performance improvements
+
+Structure: git commit -m "<type>: <what you did>"
+Example: git commit -m "feat: add new weapon class"
+
 ## Special Note: Authentication
 GitHub no longer accepts passwords. You need a **Personal Access Token** instead.
 
