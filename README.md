@@ -14,6 +14,9 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
 ### 1. Variables
 - [Variables](variables.md)
 
+### 2. Literals
+- [Literals](literals.md)
+
 ---
 
 > **Note:** This project is still a work in progress.
