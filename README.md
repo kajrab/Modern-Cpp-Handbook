@@ -18,9 +18,9 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
 - [Literals](literals.md)
 
 ### 3. Building Blocks
-- [Operators](building_blocks/operators.md)
-- [Expressions](building_blocks/expressions.md)
-- [Statements](building_blocks/statements.md)
+- [3.1 Operators](building_blocks/operators.md)
+- [3.2 Expressions](building_blocks/expressions.md)
+- [3.3 Statements](building_blocks/statements.md)
 
 
 ---
