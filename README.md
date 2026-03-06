@@ -19,6 +19,9 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
 
 ### 3. Building Blocks
 - [Operators](building_blocks/operators.md)
+- [Expressions](building_blocks/expressions.md)
+- [Statements](building_blocks/statements.md)
+
 
 ---
 
