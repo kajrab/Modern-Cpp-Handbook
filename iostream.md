@@ -33,6 +33,8 @@ int main()
 }
 ```
 
+> *Editor's note:* Don't mind `int main(){}` or `return 0;` for now; I'll cover those in the next chapter. Just think of them as essential boilerplate to run things.
+
 You can chain multiple `<<` operators in one statement:
 
 ```cpp
