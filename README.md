@@ -2,6 +2,8 @@
 
 A handbook for modern C++ — not a complete tutorial, but a focused reference for those who already know the basics and just keep forgetting the parts that aren't worth memorizing. 
 
+*I'm not sure whether to write a complete tutorial or focus solely on Modern C++, so for now I've structured it as a comprehensive handbook; though that may change in the future.*
+
 ---
 
 ## Contents
