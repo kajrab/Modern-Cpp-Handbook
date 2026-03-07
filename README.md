@@ -27,6 +27,9 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
 ### 4. Console IO
 - [4.1 Console IO](iostream.md)
 
+### 5. Anatomy of a C++ Program
+- [5.1 Anatomy of a C++ Program](program_structure.md)
+
 
 ---
 
