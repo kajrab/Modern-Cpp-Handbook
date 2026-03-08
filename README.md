@@ -28,6 +28,9 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
    
 ## Part 2 : Control & Logic
 
+1. Control Flow
+  1. Conditionals 
+    1. [If/Else/Else if](control_and_logic/if_else.md)
 ---
 
 > **Note:** This project is still a work in progress.
