@@ -1,4 +1,5 @@
 # Modern C++ Handbook
+
 A handbook for modern C++ — not a complete tutorial, but a focused reference for those who already know the basics and just keep forgetting the parts that aren't worth memorizing.
 
 *I'm not sure whether to write a complete tutorial or focus solely on Modern C++, so for now I've structured it as a comprehensive handbook; though that may change in the future.*
@@ -7,7 +8,7 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
 
 ## Contents
 
-## Part 1 : Foundations
+### Part 1: Foundations
 
 1. Introduction
    1. [Git Basics](foundations/git_basics.md)
@@ -25,12 +26,13 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
    1. [Console IO](foundations/iostream.md)
 6. Anatomy of a C++ Program
    1. [Anatomy of a C++ Program](foundations/program_structure.md)
-   
-## Part 2 : Control & Logic
+
+### Part 2: Control & Logic
 
 1. Control Flow
-  1. Conditionals 
-    1. [If/Else/Else if](control_and_logic/if_else.md)
+   1. Conditionals
+      1. [If / Else / Else If](control_and_logic/if_else.md)
+
 ---
 
 > **Note:** This project is still a work in progress.
