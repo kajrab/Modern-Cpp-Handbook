@@ -32,6 +32,7 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
 1. Control Flow
    1. Conditionals
       1. [If / Else / Else If](control_and_logic/if_else.md)
+      2. [Switch-Case](control_and_logic/switch_case.md)
 
 ---
 
