@@ -34,6 +34,8 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
       1. [If / Else / Else If](control_and_logic/if_else.md)
       2. [Switch-Case](control_and_logic/switch_case.md)
       3. [Goto statement](control_and_logic/goto.md)
+   2. Loops
+      1. [While](control_and_logic/while.md)
 
 ---
 
