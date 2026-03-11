@@ -36,6 +36,7 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
       3. [Goto Statement](control_and_logic/goto.md)
    2. Loops
       1. [While Loops](control_and_logic/while.md)
+      2. [Break and Continue Statements](control_and_logic/break_continue.md)
 
 ---
 
