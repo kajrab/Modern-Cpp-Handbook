@@ -44,7 +44,7 @@ for (int i = 0; i < 6; ++i) {
 // output: 1 3 5
 ```
 
-In a `while` or `do-while` loop (will be covered in the next chapter), `continue` jumps to the condition check. Make sure your loop variable still updates, or you'll get an infinite loop.
+In a `while` or `do-while` loop, `continue` jumps to the condition check. Make sure your loop variable still updates, or you'll get an infinite loop.
 
 ```cpp
 int i = 0;
@@ -61,8 +61,6 @@ while (i < 6) {
 ## In a range-based for loop
 
 Both work exactly as expected, the loop variable advances automatically, so there's no foot-gun with `continue` here.
-
-> *Editor's Note:* I'll cover range-based for loops later. In short, they're loops that iterate over a range; say you have an array with 5 elements, the loop runs 5 times because the range is 5. I also noticed I haven't written a part for arrays yet, so for now just think of them as collections that store data. I'll keep updating this as I go.
 
 ```cpp
 std::vector<int> nums = {1, 2, 3, 4, 5};
