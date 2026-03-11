@@ -36,11 +36,13 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
       3. [Goto Statement](control_and_logic/goto.md)
    2. Loops
       1. [While Loops](control_and_logic/while.md)
-      2. [Break and Continue Statements](control_and_logic/break_continue.md)
+      2. [Do-While Loops](control_and_logic/do_while.md)
+      3. [Break and Continue Statements](control_and_logic/break_continue.md)
      
  **Known Issues**
- - Break and continue chapter is out of order. Missing prerequisites: do-while and range-based for. Will be repositioned once those are written.
-
+ - Do-while chapter is complete. The next chapter will cover `for` statements. Break and continue is still out of order but will sit in the right position once the `for` statements chapter is done.
+ - Break and continue chapter needs to be edited.
+   
 ---
 
 > **Note:** This project is still a work in progress.
