@@ -40,6 +40,9 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
       3. [For Loops](control_and_logic/for_loops.md)
       4. [Break and Continue](control_and_logic/break_continue.md)
       5. [Halts](control_and_logic/halts.md)
+2. Logic
+   1. Functions
+      1. [Basics of Functions](control_and_logic/functions.md)
    
 ---
 
