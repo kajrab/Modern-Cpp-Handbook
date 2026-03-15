@@ -44,6 +44,7 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
    1. Functions
       1. [Basics of Functions](control_and_logic/functions.md)
       2. [Return Statements](control_and_logic/return.md)
+      3. [Parameters and Arguments](control_and_logic/parameters_arguments.md)
    
 ---
 
