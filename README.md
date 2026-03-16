@@ -46,6 +46,7 @@ A handbook for modern C++ — not a complete tutorial, but a focused reference f
       2. [Return Statements](control_and_logic/return.md)
       3. [Parameters and Arguments](control_and_logic/parameters_arguments.md)
       4. [Local and Global Scope](control_and_logic/local_global.md)
+      5. [Forward Declarations](control_and_logic/forward.md)
    
 ---
 
